@@ -28,7 +28,7 @@
 
 							<?php 
 								if ( ! is_active_sidebar( 'footer-sidebar-1' ) ) {
-									return;
+									echo "Please Add a Widget Here";
 								}
 
 								dynamic_sidebar( 'footer-sidebar-1' ); 
@@ -47,7 +47,7 @@
 							<?php 
 
 								if ( ! is_active_sidebar( 'footer-sidebar-2' ) ) {
-									return;
+									echo "Please Add a Widget Here";
 								}
 
 								dynamic_sidebar( 'footer-sidebar-2' ); 
@@ -65,7 +65,7 @@
 							<?php 
 
 								if ( ! is_active_sidebar( 'footer-sidebar-3' ) ) {
-									return;
+									echo "Please Add a Widget Here";
 								}
 
 								dynamic_sidebar( 'footer-sidebar-3' ); 
@@ -82,7 +82,7 @@
 							<?php 
 
 								if ( ! is_active_sidebar( 'footer-sidebar-4' ) ) {
-									return;
+									echo "Please Add a Widget Here";
 								}
 
 								dynamic_sidebar( 'footer-sidebar-4' ); 

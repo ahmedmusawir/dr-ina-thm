@@ -31,7 +31,7 @@ get_header(); ?>
 					<div class="form-bar-right-block">
 						<div class="form-bar-right-form-holder">
 							
-							<form id="header-form" class="form-inline" role="form">
+							<!-- <form id="header-form" class="form-inline" role="form">
 								<div class="form-group">
 								    <label for="name">FIRST NAME:</label>
 								    <input type="text" class="form-control" id="name" placeholder="" required>
@@ -42,7 +42,16 @@ get_header(); ?>
 								</div>
 							
 								  <button id="submit" type="submit" class="btn btn-default">YES! I WANT IT!</button><br />
-							</form>
+							</form> -->
+							<?php 
+
+								if ( ! is_active_sidebar( 'frontpg-convertkit' ) ) {
+									echo "Please Add a Widget Here";
+								}
+
+								dynamic_sidebar( 'frontpg-convertkit' ); 
+
+							?>							
 
 						</div>
 					</div>
